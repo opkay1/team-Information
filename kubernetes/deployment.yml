@@ -16,7 +16,7 @@ spec:
     spec:
       containers:
         - name: information
-          image: 467263215646.dkr.ecr.ap-northeast-1.amazonaws.com/skccuser17-myproduct:v1
+          image: 467263215646.dkr.ecr.ap-northeast-1.amazonaws.com/skccuser17-information:v1
           ports:
             - containerPort: 8080
           readinessProbe:
